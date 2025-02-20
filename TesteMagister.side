@@ -1,0 +1,124 @@
+{
+  "id": "79fefa4d-39ef-4151-b8fc-b761db68042a",
+  "version": "2.0",
+  "name": "TesteMagister",
+  "url": "https://wwws.facipe.edu.br/Portal/Index.jsp",
+  "tests": [{
+    "id": "7797b977-5ec4-4317-a5f5-8d2f534be117",
+    "name": "MagisterTeste",
+    "commands": [{
+      "id": "8eae9511-fd51-4008-bf0c-5bf4adc9d105",
+      "comment": "",
+      "command": "open",
+      "target": "https://wwws.facipe.edu.br/Portal/Index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a6df0dc-15cb-4a87-af38-d1ba3c643de3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1100x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "245ccb0b-d714-46e8-a812-8f81b995bbae",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fdc4487-37d9-42ff-bc1f-192f73375114",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=td:nth-child(4) .edit", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td[4]/div/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35285ac8-766c-448e-82d0-20e3a9b2b165",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=td:nth-child(4) .edit", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td[4]/div/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": "1232302039"
+    }, {
+      "id": "b797b499-2649-4720-9c9d-ed7dcf1389d3",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=td:nth-child(4) .edit", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td[4]/div/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fbe48a0-cbde-41c2-bf13-41e9e6d4a6de",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=td:nth-child(2) > div .edit", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr[2]/td[2]/div/font/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51da4302-af28-4b08-957c-fc0155aee974",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=td:nth-child(2) > div .edit", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr[2]/td[2]/div/font/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/font/input", "xpath:position"]
+      ],
+      "value": "f0eaa82f"
+    }, {
+      "id": "aae7f6e3-556a-4963-be17-7a8a31d19171",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=OK",
+      "targets": [
+        ["linkText=OK", "linkText"],
+        ["css=td:nth-child(2) > div a", "css:finder"],
+        ["xpath=//a[contains(text(),'OK')]", "xpath:link"],
+        ["xpath=//a[@onclick='formSubmit()']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//td[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "415e7a83-fa39-4c39-a7ea-97cdcc3e1ce4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7797b977-5ec4-4317-a5f5-8d2f534be117"]
+  }],
+  "urls": ["https://wwws.facipe.edu.br/Portal/Index.jsp"],
+  "plugins": []
+}
